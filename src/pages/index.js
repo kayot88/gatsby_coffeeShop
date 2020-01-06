@@ -14,4 +14,6 @@ const IndexPage = () => (
   </Layout>
 )
 
+// console.log(`Dirname = ${__dirname}`)
+
 export default IndexPage
