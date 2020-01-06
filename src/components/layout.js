@@ -19,3 +19,6 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
+// "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
