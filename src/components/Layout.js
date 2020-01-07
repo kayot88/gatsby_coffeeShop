@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
 // import "./bootstrap.min.css"
-import "./layout"
+import "./layout.css"
 // console.log(`${__dirname}src/pages`);
 const Layout = ({ children }) => <>{children}</>
 
