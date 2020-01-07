@@ -11,7 +11,7 @@ import PropTypes from "prop-types"
 
 import "./bootstrap.min.css"
 import "./layout.css"
-
+// console.log(`${__dirname}src/pages`);
 const Layout = ({ children }) => <>{children}</>
 
 Layout.propTypes = {
@@ -20,4 +20,3 @@ Layout.propTypes = {
 
 export default Layout
 
-// "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
