@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
 
-import "./bootstrap.min.css"
-import "./layout.css"
+// import "./bootstrap.min.css"
+import "./layout"
 // console.log(`${__dirname}src/pages`);
 const Layout = ({ children }) => <>{children}</>
 
