@@ -1,7 +1,7 @@
 # Logs
 logs
 *.log
-*.jpeg
+# *.jpeg
 # *.svg
 # bootstrap.min.css
 attribution.txt

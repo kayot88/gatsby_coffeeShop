@@ -17,7 +17,7 @@ const Info = () => {
               molestias cumque asperiores, omnis maxime, modi odio vitae aliquam
               excepturi veniam illum nisi! Delectus, magni alias?
             </p>
-            <Link to="/about/">
+            <Link to="/about">
               <button className="btn text-uppercase btn-yellow">About</button>
             </Link>
           </div>
