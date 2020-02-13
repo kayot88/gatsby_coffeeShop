@@ -31,7 +31,8 @@ h6 {
   font-size: 2rem;
 }
 
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -48,4 +49,12 @@ h6 {
 .btn-yellow:hover {
   background-color: var(--mainYellow);
   color: var(--mainDrown);
+}
+
+.footer {
+  background-color: var(--mainDrown);
+}
+
+.about-background {
+  min-height: 60vh;
 }

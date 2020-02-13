@@ -40,7 +40,6 @@ export default class Navbar extends Component {
         <div className={this.state.cssOpt}>
           <ul className="navbar-nav mx-auto">
             {this.state.links.map(link => {
-              // console.log(this.state.cssOpt)
               return (
                 <li key={link.id} className="nav-item">
                   <Link to={link.path} className="nav-link text-capitalize">
