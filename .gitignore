@@ -3,7 +3,7 @@ logs
 *.log
 *.jpeg
 # *.svg
-bootstrap.min.css
+# bootstrap.min.css
 attribution.txt
 npm-debug.log*
 yarn-debug.log*
