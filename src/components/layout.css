@@ -58,3 +58,15 @@ h6 {
 .about-background {
   min-height: 60vh;
 }
+
+.price-wrapper{
+  width: 100%;
+}
+
+.price{
+  color: var(--mainYellow);
+}
+
+.menu{
+  background-color: var(--mainGrey);
+}
