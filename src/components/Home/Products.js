@@ -12,9 +12,9 @@ const getProducts = graphql`
           title
           price
           image {
-            fixed(width: 250, height: 250) {
+            fluid(maxHeight: 426) {
               src
-              ...GatsbyContentfulFixed
+              ...GatsbyContentfulFluid
             }
           }
         }
@@ -34,7 +34,6 @@ const Products = () => {
               <Title title="our products" />
               <div className="row">
                  {data.products.edges.map(({node:product}) => {
-                  //  console.log(data);
                    return <Product key={product.id} product={product}/>
                  }  )}
               </div>
