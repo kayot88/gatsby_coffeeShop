@@ -18,7 +18,7 @@ const Product = ({ product }) => {
             data-item-image={product.image.fluid.src}
             data-item-url="https://coffeshopviagatsby.netlify.com"
           >
-            > add to cart
+            add to cart
           </button>
         </div>
       </div>
