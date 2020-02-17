@@ -11,12 +11,12 @@ const getProducts = graphql`
           id
           title
           price
-          # image {
-          #   fixed(width: 250, height: 250) {
-          #     src
-          #     ...GatsbyContentfulFixed
-          #   }
-          # }
+          image {
+            fixed(width: 250, height: 250) {
+              src
+              ...GatsbyContentfulFixed
+            }
+          }
         }
       }
     }
