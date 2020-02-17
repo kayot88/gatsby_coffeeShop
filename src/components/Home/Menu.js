@@ -59,7 +59,7 @@ export default class Menu extends Component {
                 return (
                   <div key={node.id} className="col-11 col-md-6 my-3 d-flex">
                     <div>
-                      <Img fixed={node.image.fixed} />
+                      {/* <Img fixed={node.image.fixed} /> */}
                     </div>
                     <div className="flex-grow-1">
                       <div className=" d-flex justify-content-between">
