@@ -12,9 +12,9 @@ const getProducts = graphql`
           title
           price
           image {
-            fluid(maxHeight: 426) {
+            fixed(width: 250, height: 250) {
               src
-              ...GatsbyContentfulFluid
+              ...GatsbyContentfulFixed
             }
           }
         }
